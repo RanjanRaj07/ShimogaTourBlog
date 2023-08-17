@@ -4,8 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Allura&family=Crimson+Text&family=Kalam&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Allura&family=Crimson+Text&family=Kalam&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="stylesheet"
@@ -23,7 +24,7 @@
         <h1 style="font-family: 'Kalam', cursive; margin-bottom: 0;" >A Tour to Shivamogga</h1>
         <p style="font-family: 'kalam', cursive; margin-top: 2px;" id="subtitle">The gateway of malnad</p> 
         <div class="slide-class">
-            <div class="data-class">
+            <div class="data-class" data-aos="fade-up">
                 </u><h2>Sri Sigandur Choudeshwari Temple</h2>
                 <p>the temple has a rich heritage and history of the godess sri chowdeshwari. Shree Devi kshethra was built in the 18th century. Sigandur kshethra is near Thumari, 42 km from Sagar town.
                   <br>The village is surrounded on three sides by the backwaters of Linganamakki dam, formed by the Sharavathi River.Sigandur is about 40 km from its taluk headquarters, Sagara town.
@@ -80,10 +81,8 @@
       <p>
         A Tourism promotion blog as a part of AICTE activity point program by
         students of
-        <b
-          >Government Sri Krishnarajendra Silver Jubilee Technological Institute
-          <br />KR Circle, Bengaluru, Karnataka.</b
-        >
+        <b>Government Sri Krishnarajendra Silver Jubilee Technological Institute
+          <br/>KR Circle, Bengaluru, Karnataka.</b>
       </p>
       <div class="img-area">
         <img src="img/sksjti.png" alt="" />
@@ -91,6 +90,12 @@
         <img id="kdt" src="img/kdtk1.png" alt="" />
       </div>
     </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration:1700
+      });
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
   </body>
