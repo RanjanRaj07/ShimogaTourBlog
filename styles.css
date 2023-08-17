@@ -25,27 +25,44 @@ body{
     width: 100%;
     height: 720px;
 }
-.main-area p,h1{
+.main-area #subtitle,h1{
     margin: 0;
-    margin-left: 10px;
-    font-size: 20px;
+    margin-left: 2.5%;
+    font-size: 50px;
+    margin-top: 0;
 }
-.main-area h1{
-    font-size: 40px;
+.main-area #subtitle{
+    margin-top: 0;
+    font-size: 30px;
 }
 
 footer{
     margin: 0;
     position: relative;
     width: 100%;
-    background-color: rgb(62, 62, 62);
+    background-color: rgb(41, 40, 40);
     color:whitesmoke;
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
 }
 footer p{
     margin: 0;
     margin-left: 10px;
     padding: 5px;
     font-size: 15px;
+    width: 40%;
+}
+footer .img-area{
+    background-color: #ffffff;
+    opacity: 0.9;
+    width: 40%;
+    position: relative;
+    border-radius: 20px;
+    margin: auto;
+    margin-right: 10px;
+    display: flexbox;
+    flex-direction: row;
 }
 footer img{
     margin: 5px;
@@ -54,7 +71,97 @@ footer img{
     border-radius: 50%;
 }
 footer #kdt{
-    width: 350px;
-    height: 90px;
+    width: 45%;
+    height: 30%;
+    margin-left: 20px;
+    border-radius: 5px;
+    margin-bottom: 13px;
+    
+}
+.slide-class {
+    margin-top: 15px;
+    position: relative;   
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.data-class {
+    position: relative;
+    width: 50%;
+    margin-left: 3%;
+    padding: 0;
+    font-family: 'Crimson Text', serif;
+}
+@media screen and (min-width: 601px) {
+.data-class h2{
+    font-size: 2.5vw;
+    margin-bottom: 0.5vw;
+}
+.data-class p{
+    font-size: 1.9vw;
+    margin-top: 0;
+}
+}
+@media screen and (max-width: 600px) {
+    .data-class h2{
+        font-size: 4.6vw;
+        margin-bottom: 0.5vw;
+    }
+    .data-class p{
+        font-size: 3.9vw;
+        margin-top: 0;
+    }
+    }
+#slideimg {
+    position: relative;
+    width: 90%;
+    height: 70%;
+    margin-left: 5%;
+    margin-top: 4%;
+    opacity: 1;
     border-radius: 10px;
+}
+
+
+/*swiper code*/
+.swiper {
+    width:40%;
+    height: 60%;
+    margin-right: 3.5%;
+  }
+
+.swiper-slide {
+display: flex;
+/* align-items: center;
+justify-content: center; */
+border-radius: 18px;
+font-size: 22px;
+font-weight: bold;
+color: #000;
+flex-direction: column;
+}
+
+.swiper-slide {
+background-color: rgba(250,250,250,0.85);
+font-size: 1.8vw;
+}
+.swiper-slide h3{
+    margin-left: 5%; 
+    margin-top: 2px;
+    margin-bottom: 0;
+}
+.swiper-slide button{
+width: 20%;
+position: relative;
+margin-left: 5%;
+margin-top: 1%;
+margin-bottom: 2%;
+padding: 1%;
+border: #000;
+border-radius: 7px;
+font-size: 1.08vw;
+color: #ffffff;
+background-image: linear-gradient(-45deg, rgb(3, 53, 15), rgb(121, 204, 13));
+cursor: pointer;
 }
