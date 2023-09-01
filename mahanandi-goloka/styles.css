@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Calligraffitti&family=Crimson+Text&family=Kalam&display=swap');
+body,footer{
+    margin: 0;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    /* overflow-x: hidden; */
+}
+
+.first-page{
+    width: 100%;
+    height: 100vh;
+    background-image: url('/img/goukula.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+.first-page h2{
+    display: none;
+}
+#title{
+    font-family: 'Kalam', cursive;
+    font-size: 10ex;
+    position: relative;
+    margin-left: 30%;
+}
+
+@media screen and (max-width: 600px){
+    .first-page h2{
+        display: block;
+        position: absolute;
+        top: 0.1em;
+        left: 1em;
+        color: white;
+        font-size: 2.5em;
+    }
+}
+
+#logo{
+    position: relative;
+    width: 35vh;
+    height: 15vh;
+    margin-top: 2em;    
+    margin-left: 81%;
+}
+
+.second-page {
+    width: 100%;
+    height: 100vh; /* Adjust the height as needed */
+    background-color: #f0f0f0; /* Background color of the second page */
+}

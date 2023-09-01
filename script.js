@@ -1,5 +1,3 @@
-
-
 function getCurrentSlideIndex (){
   var activeSlideIndex = swiper.activeIndex;
   var data = document.getElementById('data-body')
