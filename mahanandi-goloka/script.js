@@ -1,5 +1,6 @@
-const firstPage = document.querySelector('.first-page');
-const secondPage = document.querySelector('.second-page');
+const firstPage = document.querySelector('.first-page')
+const secondPage = document.querySelector('.second-page')
+const title = document.getElementsByClassName('title')
 
 // Function to change background image opacity
 function changeOpacity(scrollY) {
@@ -29,39 +30,38 @@ function scrollToNextPage() {
 
 // Function to scroll back to the first page
 function scrollToFirstPage() {
-    const firstPageTop = firstPage.offsetTop;
+    title.innerHTML=`<h1 id="title" data-aos="fade-down">Vande Goumataram</h1>`
+    const firstPageTop = firstPage.offsetTop
     window.scrollTo({
         top: firstPageTop,
         left: 0,
         behavior: 'auto', // Instant scroll without smooth scrolling
     });
+    
 }
 
 // Variable to keep track of scroll direction
 let prevScrollY = window.scrollY;
 let scrollingDown = true;
-
+let page1scroll = firstPage.clientHeight - window.innerHeight
 // Listen for scroll events
 window.addEventListener('scroll', () => {
     const scrollY = window.scrollY;
-    
     // Check the scroll direction
     if (scrollY > prevScrollY) {
         // Scrolling down
         scrollingDown = true;
         changeOpacity(scrollY);
-        
         // Check if you've reached the bottom of the first page
-        if (scrollY >= firstPage.clientHeight - window.innerHeight) {
+        if (scrollY >= page1scroll && prevScrollY<firstPage.clientHeight) {
             scrollToNextPage();
         }
     } else {
         // Scrolling up
         scrollingDown = false;
         changeOpacity(scrollY);
-        
         // Check if you're at the top of the page
-        if (scrollY === 0) {
+        if (prevScrollY === firstPage.clientHeight/2) {
             scrollToFirstPage();
         }
     }
