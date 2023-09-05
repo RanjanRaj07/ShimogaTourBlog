@@ -30,7 +30,6 @@ function scrollToNextPage() {
 
 // Function to scroll back to the first page
 function scrollToFirstPage() {
-    title.innerHTML=`<h1 id="title" data-aos="fade-down">Vande Goumataram</h1>`
     const firstPageTop = firstPage.offsetTop
     window.scrollTo({
         top: firstPageTop,
@@ -53,7 +52,8 @@ window.addEventListener('scroll', () => {
         scrollingDown = true;
         changeOpacity(scrollY);
         // Check if you've reached the bottom of the first page
-        if (scrollY >= page1scroll && prevScrollY<firstPage.clientHeight) {
+        console.log(scrollY+' '+prevScrollY+' '+page1scroll+' '+firstPage.clientHeight)
+        if (prevScrollY<firstPage.clientHeight) {
             scrollToNextPage();
         }
     } else {
