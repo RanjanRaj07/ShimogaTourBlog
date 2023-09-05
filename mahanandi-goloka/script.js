@@ -52,7 +52,6 @@ window.addEventListener('scroll', () => {
         scrollingDown = true;
         changeOpacity(scrollY);
         // Check if you've reached the bottom of the first page
-        console.log(scrollY+' '+prevScrollY+' '+page1scroll+' '+firstPage.clientHeight)
         if (prevScrollY<firstPage.clientHeight) {
             scrollToNextPage();
         }
