@@ -1,0 +1,128 @@
+html, body{
+    /* height: 100%;    
+    width: 100%; */
+    margin: 0;
+    background-image: url('../img/flowerbg.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; Optional - this makes the background fixed while scrolling */
+    background-position: center center;
+}
+
+.header{
+    width: 100%;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    font-family: 'Calligraffitti', cursive;
+    font-weight: bold;
+    font-size: 1.3em;
+    background: linear-gradient(-45deg,rgb(82, 223, 89), rgb(0, 65, 19));
+    -webkit-background-clip: text; /* Apply background-clip for webkit browsers */
+    background-clip: text; /* Apply background-clip for other browsers */
+    color: transparent; /* Make the text transparent */
+}
+
+.main-photos{
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 3vw;
+    align-items: center;
+    justify-content: center;
+}
+
+#main-img1{
+    width: 35vh;
+    height: 42vh;
+    transform: rotate(-8deg);
+    border-radius: 1vh;
+}
+
+#main-img2{
+    width: 60vh;
+    height: 45vh;
+    border-radius: 1vh;
+    margin-bottom: 4vh;
+}
+
+#main-img3{
+    width: 35vh;
+    height: 42vh;
+    transform: rotate(8deg);
+    border-radius: 1vh;
+}
+
+.vardapura-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    width: 70%;
+    margin: 0 auto;
+    font-size: 1.1em;
+    font-family: 'Kalam', cursive;
+}
+
+.abt_sridhara-swami, .varadashrama-content{
+    position: relative;
+    width: 70%;
+    margin: auto;
+    text-align: justify;
+    font-size: 1.1em;
+    font-family: 'Kalam', cursive;
+}
+.abt_sridhara-swami h1{
+    font-family: 'Courgette', cursive;
+}
+
+#Sridharaswami{
+    width: 20vw;
+    height: 40vh;
+    border-radius: 1vh;
+    float: left;
+    margin-right: 1vw;
+}
+
+.highlights-vardapura-ashrama{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 1vw;
+}
+
+.highlights-vardapura-ashrama img{
+    height: 40vh;
+    width: 30vh;
+    border-radius: 1vh;
+}
+
+#vidya, #goushala, #arogya{
+    height: 25vh;
+    width: 30vh;
+    float: left;
+    margin-right: 1vh;
+    border-radius: 10%;
+}
+
+footer{
+    width: 100%;
+    background-color: rgb(41, 40, 40);
+    display: flex;
+    flex-direction: roe;
+    color: whitesmoke;
+}
+footer p{
+    margin-left: 5%;
+}
+
+footer img{
+    margin-left: 2.5vw;
+    margin-top: 3%;
+    margin-bottom: 0;
+    width: 10vh;
+    height: 10vh;
+}
