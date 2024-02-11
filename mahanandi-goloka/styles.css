@@ -9,6 +9,21 @@ body,footer{
     background-color: #f0f0f0;
     /* overflow-x: hidden; */
 }
+/* Hide the scrollbar and its track */
+::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+/* Optional: You can style the thumb (the draggable part of the scrollbar) if desired */
+::-webkit-scrollbar-thumb {
+    background: transparent;
+}
+
+/* Optional: You can style the track (the area the scrollbar moves along) if desired */
+::-webkit-scrollbar-track {
+    background: transparent;
+}
 
 .first-page{
     width: 100%;

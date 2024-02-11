@@ -36,7 +36,6 @@ function scrollToFirstPage() {
         left: 0,
         behavior: 'auto', // Instant scroll without smooth scrolling
     });
-    
 }
 
 // Variable to keep track of scroll direction
