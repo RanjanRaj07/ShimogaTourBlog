@@ -9,4 +9,53 @@ html, body{
     background-position: center;
 }
 
+h1 {
+    margin-left: 2vw;
+    font-size: 50px;
+    font-style: oblique;
+    font-weight: normal;
+    text-align: center;
+    }
+
+h2 {
+    margin-left: 5vw; 
+    font-size: 40px;
+    font-weight: normal;
+    font-style: oblique;
+   }
+h3{
+   margin-left: 5vw;
+   font-size: 40px;
+   font-weight: normal;
+   font-style: oblique; 
+}
+p {
+    margin-left: 5vw;
+    margin-right: 5vw;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: justify;
+}
+* {
+   box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+    flex: 33.33%;
+    padding: 5px;
+ }
+
+.aghoreshwara-temple-at-ikkeri, img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  img{
+    border-radius: 3.5%;
+  }
 
