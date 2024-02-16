@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&family=Tinos:wght@700&family=Josefin+Sans:ital,wght@1,400&display=swap');
+
+html, body{
+    width: 100%;
+    margin: 0;
+    background-image: url('imgs/bck.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header-cls{
+    margin-left: 8vw;
+    margin-right: 8vw;
+}
+
+.header-cls p{
+    margin: 0;
+    font-size: 1.2em;
+    font-family: 'Tinos', serif;
+    margin-bottom: 2vh;
+}
+#km{
+    font-family: 'Helvetica', monospace;
+    font-style: oblique;
+    font-size: 4em;
+    color: rgb(2, 21, 46);
+    margin-bottom: 0;
+    margin-top: 2vh;
+}
+*{
+    box-sizing: border-box;
+  }
+  
+.column {
+    float: left;
+    width: 20%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.main-content{
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 3vh;
+    text-align: justify;
+}
+
+.main-content, p{
+    font-size: 1.05em;
+    font-weight: 100;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic;  
+}
