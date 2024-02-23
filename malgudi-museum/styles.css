@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&family=Tinos:wght@700&family=Josefin+Sans:ital,wght@1,400&display=swap');
+
+html, body{
+    /* height: 100%;     */
+    width: 100%;
+    margin: 0;
+    background-color: rgb(230, 226, 218) ; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; Optional - this makes the background fixed while scrolling */
+    background-position: center;
+}
+
+.header-cls{
+    margin-left: 8vw;
+    margin-right: 8vw;
+}
+
+.header-cls p{
+    margin: 0;
+    font-size: 1.2em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin-bottom: 2vh;
+    color: rgb(35, 25, 25);
+}
+#mal-id{
+    font-family: cursive;
+    font-size: 4em;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 2vh;
+}
+
+.swiper-wrapper{
+    margin-left: 8vw;
+    margin-right: 8vw;
+}
+
+.swiper-slide, img{
+    margin: 0;
+    width: 450px;
+    height: 250px;
+    border-radius: 3%;
+}
+
+.main-content{
+    margin-left: 8vw;
+    margin-right: 8vw;
+    margin-top: 3vh;
+    text-align: justify;
+}
+
+.main-content, p{
+    font-size: 1.05em;
+    font-weight: 100;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic;  
+}
+footer{
+    width: 100%;
+    background-color: rgb(41, 40, 40);
+    display: flex;
+    flex-direction: roe;
+    color: whitesmoke;
+}
+footer p{
+    margin-left: 5%;
+}
+.list{
+    font-weight: bold;
+}
+h2{
+    font-size: 30px;
+}
+
+footer{
+    width: 100%;
+    background-color: rgb(41, 40, 40);
+    display: flex;
+    flex-direction: roe;
+    color: whitesmoke;
+}
+footer p{
+    margin-left: 5%;
+}
