@@ -9,6 +9,7 @@ body,footer{
     background-color: #f0f0f0;
     /* overflow-x: hidden; */
 }
+
 /* Hide the scrollbar and its track */
 ::-webkit-scrollbar {
     width: 0;

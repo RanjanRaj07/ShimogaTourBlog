@@ -6,15 +6,6 @@ body,footer{
     overflow-x: hidden;
 }
 
-/* .intro{
-    position: relative;
-    margin-top: 0;
-    height: 50px;
-    width: 100%;
-    background-color:green;
-    color: white;
-}
- */
 .main-area{
     position: relative;
     margin-top: 0;
@@ -123,8 +114,6 @@ footer #kdt{
     border-radius: 10px;
 }
 
-
-/*swiper code*/
 .swiper {
     width:40%;
     height: 60%;
@@ -133,8 +122,6 @@ footer #kdt{
 
 .swiper-slide {
 display: flex;
-/* align-items: center;
-justify-content: center; */
 border-radius: 18px;
 font-size: 22px;
 font-weight: bold;

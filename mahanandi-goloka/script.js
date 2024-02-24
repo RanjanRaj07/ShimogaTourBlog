@@ -50,10 +50,6 @@ window.addEventListener('scroll', () => {
         // Scrolling down
         scrollingDown = true;
         changeOpacity(scrollY);
-        // Check if you've reached the bottom of the first page
-        // if (prevScrollY<firstPage.clientHeight/2) {
-        //     scrollToNextPage();
-        // }
     } else {
         // Scrolling up
         scrollingDown = false;
