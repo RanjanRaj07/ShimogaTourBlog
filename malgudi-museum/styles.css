@@ -34,15 +34,14 @@ html, body{
 }
 
 .swiper-wrapper{
-    margin-left: 8vw;
-    margin-right: 8vw;
+    margin-left: 0.5vw;
+    margin-right: 7vw;
 }
 
 .swiper-slide, img{
     margin: 0;
-    width: 450px;
-    height: 250px;
-    border-radius: 3%;
+    width: 90%;
+    border-radius: 0.3vw;
 }
 
 .main-content{
@@ -57,9 +56,28 @@ html, body{
     font-weight: 100;
     font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
     font-optical-sizing: auto;
-    font-weight: 400;
+    font-weight: 100;
     font-style: italic;  
 }
+
+#fig1{
+    float: left;
+    width: 27vw;
+    margin-right: 0;
+    margin-left: 1.5vw;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+#fig2{
+    float: right;
+    width: 27vw;
+    margin-left: 2vw;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
 footer{
     width: 100%;
     background-color: rgb(41, 40, 40);
